@@ -1,0 +1,33 @@
+{
+  "database_dir": "mit-bih-arrhythmia-database-1.0.0",
+  "output_dir": "runs/mitbih_32s",
+  "window_seconds": 32,
+  "epochs": 50,
+  "batch_size": 8,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "patience": 8,
+  "seed": 42,
+  "s_sampling_factor": 2.0,
+  "rhythm_n_per_record": 6,
+  "prepare_only": false,
+  "initialization": "random",
+  "training_database": "MIT-BIH only",
+  "external_database_used": false,
+  "rhythm_N_supplemental_count": 31,
+  "rhythm_sampling": "uniform AFIB/AFL N-only windows outside all original windows",
+  "selection": "MIT-BIH validation pointwise macro-F1 N/S/V/F/Q; fixed split and same 16s-derived class weights",
+  "sampling": "S-weighted replacement",
+  "windows_per_epoch": 13224,
+  "input_samples": 11520,
+  "expected_S_center_fraction": 0.2559841740850643,
+  "split_unit": "window; records and overlapping windows may cross internal splits",
+  "class_weights": [
+    0.15000000596046448,
+    0.5269579291343689,
+    1.089958906173706,
+    0.808743417263031,
+    2.054478168487549,
+    0.51986163854599
+  ]
+}

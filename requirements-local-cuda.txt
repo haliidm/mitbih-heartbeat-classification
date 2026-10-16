@@ -1,0 +1,4 @@
+# Exact local GPU dependency snapshot (CUDA 13.0 build).
+--extra-index-url https://download.pytorch.org/whl/cu130
+-r requirements.txt
+torch==2.14.1+cu130

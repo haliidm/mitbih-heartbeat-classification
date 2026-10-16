@@ -1,0 +1,42 @@
+# MIT-BIH source database: keep the downloaded data out of GitHub.
+mit-bih-arrhythmia-database-1.0.0/
+*.dat
+*.hea
+*.atr
+*.xws
+
+# Training products and local Python/IDE state.
+runs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+
+european-st-t-database-1.0.0/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+archive/
+
+# Public repository: never commit local datasets, weights or temporary exports.
+icentia11k-continuous-ecg-1.0/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+reports/cache_cleanup.json
+reports/cleanup_*.json
+reports/experiment_index.json
+
+# Publish only the three selected checkpoints.
+!checkpoints/ecg_cnn_transformer_16s.pt
+!checkpoints/ecg_cnn_transformer_32s.pt
+!checkpoints/ecg_cnn_transformer_64s.pt

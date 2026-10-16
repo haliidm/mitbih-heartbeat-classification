@@ -1,0 +1,447 @@
+{
+  "original_window_count": 18863,
+  "supplemental_window_count": 31,
+  "cap_per_record_per_rhythm": 6,
+  "records": [
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "eligible": 15,
+      "selected": 6
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "eligible": 16,
+      "selected": 6
+    },
+    {
+      "record": "202",
+      "rhythm": "AFL",
+      "eligible": 2,
+      "selected": 2
+    },
+    {
+      "record": "203",
+      "rhythm": "AFIB",
+      "eligible": 1,
+      "selected": 1
+    },
+    {
+      "record": "203",
+      "rhythm": "AFL",
+      "eligible": 0,
+      "selected": 0
+    },
+    {
+      "record": "210",
+      "rhythm": "AFIB",
+      "eligible": 4,
+      "selected": 4
+    },
+    {
+      "record": "217",
+      "rhythm": "AFIB",
+      "eligible": 0,
+      "selected": 0
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "eligible": 21,
+      "selected": 6
+    },
+    {
+      "record": "221",
+      "rhythm": "AFIB",
+      "eligible": 1,
+      "selected": 1
+    },
+    {
+      "record": "222",
+      "rhythm": "AFIB",
+      "eligible": 0,
+      "selected": 0
+    },
+    {
+      "record": "222",
+      "rhythm": "AFL",
+      "eligible": 5,
+      "selected": 5
+    }
+  ],
+  "windows": [
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "split": "test",
+      "dataset_index": 18863,
+      "center_sample": 2956,
+      "start_seconds": 0.2111111111111111,
+      "end_seconds": 16.211111111111112,
+      "rhythm_start_seconds": 0.16666666666666666,
+      "rhythm_end_seconds": 378.40555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "split": "validation",
+      "dataset_index": 18864,
+      "center_sample": 31721,
+      "start_seconds": 80.1138888888889,
+      "end_seconds": 96.1138888888889,
+      "rhythm_start_seconds": 0.16666666666666666,
+      "rhythm_end_seconds": 378.40555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18865,
+      "center_sample": 54886,
+      "start_seconds": 144.4611111111111,
+      "end_seconds": 160.4611111111111,
+      "rhythm_start_seconds": 0.16666666666666666,
+      "rhythm_end_seconds": 378.40555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18866,
+      "center_sample": 95113,
+      "start_seconds": 256.2027777777778,
+      "end_seconds": 272.2027777777778,
+      "rhythm_start_seconds": 0.16666666666666666,
+      "rhythm_end_seconds": 378.40555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18867,
+      "center_sample": 583362,
+      "start_seconds": 1612.45,
+      "end_seconds": 1628.45,
+      "rhythm_start_seconds": 1596.5055555555555,
+      "rhythm_end_seconds": 1787.2527777777777,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "201",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18868,
+      "center_sample": 635209,
+      "start_seconds": 1756.4694444444444,
+      "end_seconds": 1772.4694444444444,
+      "rhythm_start_seconds": 1596.5055555555555,
+      "rhythm_end_seconds": 1787.2527777777777,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18869,
+      "center_sample": 432088,
+      "start_seconds": 1192.2444444444445,
+      "end_seconds": 1208.2444444444445,
+      "rhythm_start_seconds": 1176.3305555555555,
+      "rhythm_end_seconds": 1291.65,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18870,
+      "center_sample": 488697,
+      "start_seconds": 1349.4916666666666,
+      "end_seconds": 1365.4916666666666,
+      "rhythm_start_seconds": 1301.8833333333334,
+      "rhythm_end_seconds": 1527.2027777777778,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18871,
+      "center_sample": 511837,
+      "start_seconds": 1413.7694444444444,
+      "end_seconds": 1429.7694444444444,
+      "rhythm_start_seconds": 1301.8833333333334,
+      "rhythm_end_seconds": 1527.2027777777778,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "split": "validation",
+      "dataset_index": 18872,
+      "center_sample": 540790,
+      "start_seconds": 1494.1944444444443,
+      "end_seconds": 1510.1944444444443,
+      "rhythm_start_seconds": 1301.8833333333334,
+      "rhythm_end_seconds": 1527.2027777777778,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18873,
+      "center_sample": 598682,
+      "start_seconds": 1655.0055555555555,
+      "end_seconds": 1671.0055555555555,
+      "rhythm_start_seconds": 1575.1138888888888,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFIB",
+      "split": "test",
+      "dataset_index": 18874,
+      "center_sample": 639083,
+      "start_seconds": 1767.2305555555556,
+      "end_seconds": 1783.2305555555556,
+      "rhythm_start_seconds": 1575.1138888888888,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFL",
+      "split": "train",
+      "dataset_index": 18875,
+      "center_sample": 552687,
+      "start_seconds": 1527.2416666666666,
+      "end_seconds": 1543.2416666666666,
+      "rhythm_start_seconds": 1527.2027777777778,
+      "rhythm_end_seconds": 1575.1138888888888,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "202",
+      "rhythm": "AFL",
+      "split": "validation",
+      "dataset_index": 18876,
+      "center_sample": 558449,
+      "start_seconds": 1543.2472222222223,
+      "end_seconds": 1559.2472222222223,
+      "rhythm_start_seconds": 1527.2027777777778,
+      "rhythm_end_seconds": 1575.1138888888888,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "203",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18877,
+      "center_sample": 64132,
+      "start_seconds": 170.14444444444445,
+      "end_seconds": 186.14444444444445,
+      "rhythm_start_seconds": 106.3638888888889,
+      "rhythm_end_seconds": 268.93888888888887,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "210",
+      "rhythm": "AFIB",
+      "split": "validation",
+      "dataset_index": 18878,
+      "center_sample": 60565,
+      "start_seconds": 160.23611111111111,
+      "end_seconds": 176.23611111111111,
+      "rhythm_start_seconds": 0.03611111111111111,
+      "rhythm_end_seconds": 420.98333333333335,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "210",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18879,
+      "center_sample": 135401,
+      "start_seconds": 368.1138888888889,
+      "end_seconds": 384.1138888888889,
+      "rhythm_start_seconds": 0.03611111111111111,
+      "rhythm_end_seconds": 420.98333333333335,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "210",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18880,
+      "center_sample": 255971,
+      "start_seconds": 703.0305555555556,
+      "end_seconds": 719.0305555555556,
+      "rhythm_start_seconds": 607.0527777777778,
+      "rhythm_end_seconds": 1017.0944444444444,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "210",
+      "rhythm": "AFIB",
+      "split": "test",
+      "dataset_index": 18881,
+      "center_sample": 535817,
+      "start_seconds": 1480.3805555555555,
+      "end_seconds": 1496.3805555555555,
+      "rhythm_start_seconds": 1112.6222222222223,
+      "rhythm_end_seconds": 1658.0916666666667,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18882,
+      "center_sample": 45197,
+      "start_seconds": 117.54722222222222,
+      "end_seconds": 133.54722222222222,
+      "rhythm_start_seconds": 101.74166666666666,
+      "rhythm_end_seconds": 303.31111111111113,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "split": "validation",
+      "dataset_index": 18883,
+      "center_sample": 206934,
+      "start_seconds": 566.8166666666667,
+      "end_seconds": 582.8166666666667,
+      "rhythm_start_seconds": 326.6638888888889,
+      "rhythm_end_seconds": 835.6027777777778,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18884,
+      "center_sample": 276107,
+      "start_seconds": 758.9638888888888,
+      "end_seconds": 774.9638888888888,
+      "rhythm_start_seconds": 326.6638888888889,
+      "rhythm_end_seconds": 835.6027777777778,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "split": "test",
+      "dataset_index": 18885,
+      "center_sample": 465087,
+      "start_seconds": 1283.9083333333333,
+      "end_seconds": 1299.9083333333333,
+      "rhythm_start_seconds": 1219.725,
+      "rhythm_end_seconds": 1336.075,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18886,
+      "center_sample": 562371,
+      "start_seconds": 1554.1416666666667,
+      "end_seconds": 1570.1416666666667,
+      "rhythm_start_seconds": 1394.3,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "219",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18887,
+      "center_sample": 637503,
+      "start_seconds": 1762.8416666666667,
+      "end_seconds": 1778.8416666666667,
+      "rhythm_start_seconds": 1394.3,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "221",
+      "rhythm": "AFIB",
+      "split": "train",
+      "dataset_index": 18888,
+      "center_sample": 645836,
+      "start_seconds": 1785.9888888888888,
+      "end_seconds": 1801.9888888888888,
+      "rhythm_start_seconds": 1018.1138888888889,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "222",
+      "rhythm": "AFL",
+      "split": "train",
+      "dataset_index": 18889,
+      "center_sample": 587821,
+      "start_seconds": 1624.8361111111112,
+      "end_seconds": 1640.8361111111112,
+      "rhythm_start_seconds": 1624.6944444444443,
+      "rhythm_end_seconds": 1653.7916666666667,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "222",
+      "rhythm": "AFL",
+      "split": "test",
+      "dataset_index": 18890,
+      "center_sample": 601480,
+      "start_seconds": 1662.7777777777778,
+      "end_seconds": 1678.7777777777778,
+      "rhythm_start_seconds": 1662.6166666666666,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "222",
+      "rhythm": "AFL",
+      "split": "validation",
+      "dataset_index": 18891,
+      "center_sample": 612922,
+      "start_seconds": 1694.5611111111111,
+      "end_seconds": 1710.5611111111111,
+      "rhythm_start_seconds": 1662.6166666666666,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "222",
+      "rhythm": "AFL",
+      "split": "train",
+      "dataset_index": 18892,
+      "center_sample": 624444,
+      "start_seconds": 1726.5666666666666,
+      "end_seconds": 1742.5666666666666,
+      "rhythm_start_seconds": 1662.6166666666666,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    },
+    {
+      "record": "222",
+      "rhythm": "AFL",
+      "split": "train",
+      "dataset_index": 18893,
+      "center_sample": 636035,
+      "start_seconds": 1758.763888888889,
+      "end_seconds": 1774.763888888889,
+      "rhythm_start_seconds": 1662.6166666666666,
+      "rhythm_end_seconds": 1805.5555555555557,
+      "selection": "uniform over eligible intervals; no original-window overlap"
+    }
+  ]
+}

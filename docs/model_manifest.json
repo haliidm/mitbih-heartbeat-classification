@@ -1,0 +1,26 @@
+[
+  {
+    "window_seconds": 16,
+    "path": "checkpoints/ecg_cnn_transformer_16s.pt",
+    "source": "runs/mitbih_rhythm_n/best_model.pt",
+    "bytes": 5254579,
+    "sha256": "dbc34b17b283bc02be4bf18d9e5021fda879738e985ca60e462a76d698a8e3b7",
+    "metadata_note": "Local absolute paths removed from training_config; model tensors unchanged."
+  },
+  {
+    "window_seconds": 32,
+    "path": "checkpoints/ecg_cnn_transformer_32s.pt",
+    "source": "runs/mitbih_32s/best_model.pt",
+    "bytes": 5392947,
+    "sha256": "8d870b9c3361effe83bb8a114fd46e6c5f9536b4c6b9314632b8ad548b05e288",
+    "metadata_note": "Local absolute paths removed from training_config; model tensors unchanged."
+  },
+  {
+    "window_seconds": 64,
+    "path": "checkpoints/ecg_cnn_transformer_64s.pt",
+    "source": "runs/mitbih_64s/best_model.pt",
+    "bytes": 5669427,
+    "sha256": "ea6d6ad8f48fe9171664fbb264bffa07d93be1027b736e466b8b28c17205f6ce",
+    "metadata_note": "Local absolute paths removed from training_config; model tensors unchanged."
+  }
+]

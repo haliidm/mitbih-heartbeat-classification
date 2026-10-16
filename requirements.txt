@@ -1,0 +1,7 @@
+# Recorded local environment; Python 3.12.15.
+# Install the appropriate PyTorch build separately; see README.
+numpy==2.5.4
+scipy==1.18.1
+wfdb==4.3.1
+matplotlib==3.11.2
+pandas==3.0.6
